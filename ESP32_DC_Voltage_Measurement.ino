@@ -12,7 +12,7 @@ void loop() {
   //                                |
   //                               Gnd
    
-  float voltage = (float)analogRead(36) / 4096 * 5 * (200000 / 200000);
+  float voltage = (float)analogRead(36) / 4096 * 5 * (194117 / 200000);
   Serial.print(voltage,1);
   Serial.println("v");
   delay(200);
